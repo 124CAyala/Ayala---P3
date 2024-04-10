@@ -91,6 +91,11 @@ const vue_app = Vue.createApp({
               } else {
                 this.movies[index].posterindex = 0;
               }
+            },
+            timeText(minutes) {
+              let hour = minutes / 60;
+              let remainder = minutes % 60;
+              return Math.trunc(hour) + "h " + remainder + "m";
             }
       }
 })
