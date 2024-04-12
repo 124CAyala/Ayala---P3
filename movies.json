@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Monkey Man",
+            "iscore": 9.0,
+            "rating": "R",
+            "runtime": 121,
+            "released": [2024, 3, 11],
+            "country": "USA",
+            "posters": ["img/monkeyman.jpg", "img/monkeyman2.jpg", "img/monkeyman3.jpg"],
+            "imdb": "http://www.imdb.com/title/tt9214772",
+            "website": "https://www.facebook.com/thegodfather",
+            "likes": 784,
+            "dislikes": 75,
+            "posterindex": 0
+      },
+      {
+            "title": "John Wick",
+            "iscore": 7.4,
+            "rating": "PG-13",
+            "runtime": 101,
+            "released": [2014, 10, 24],
+            "country": "USA",
+            "posters": ["img/johnwick.jpg", "img/johnwick2.jpg", "img/johnwick3.jpg"],
+            "imdb": "http://www.imdb.com/title/tt2911666",
+            "website": "http://www.42entertainment.com/work/whysoserious",
+            "likes": 552,
+            "dislikes": 262,
+            "posterindex": 0
+      },
+      {
+            "title": "A Christmas Carol",
+            "iscore": 8.9,
+            "rating": "R",
+            "runtime": 96,
+            "released": [2009, 11, 6],
+            "country": "USA",
+            "posters": ["img/christmascarol.jpg", "img/christmascarol2.jpg"],
+            "imdb": "http://www.imdb.com/title/tt1067106",
+            "website": "https://www.uphe.com/schindlers-list",
+            "likes": 862,
+            "dislikes": 212,
+            "posterindex": 0
       }
 ]

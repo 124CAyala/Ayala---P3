@@ -45,7 +45,7 @@
  <!--  -->
 						<img class="poster img-fluid " :src = "movie.posters[movie.posterindex]" @click="posterClick(index)"/>
 			
-						<p class="title">{{ movie.title }} {{ movie.country }}</p>
+						<p class="title">{{ movie.title }} ({{ movie.country }})</p>
 						<p class="score"><i class="bi bi-star" aria-hidden="true"></i> {{ movie.iscore }} </p>
 						<div class="imageInfo">Poster {{ movie.posterindex  + 1 }} Of {{ movie.posters.length }}</div>
 						<p class="runtime">Runtime: {{ timeText(movie.runtime) }}</p>
